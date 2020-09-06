@@ -28,7 +28,7 @@ function Form() {
     return (
         <div id="page-simple-email" className="container">
             <PageHeader
-                title="Envio de e-mail"
+                title="Simples envio de e-mail"
                 description="Envio de e-mail com a lib nodemailer" />
             <main>
                 <form onSubmit={handleEmail}>
